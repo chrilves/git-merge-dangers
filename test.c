@@ -6,7 +6,7 @@ long f() {
   long accumulator = 0;
 
   while (iterations > 0) {
-    accumulator = iterations + accumulator;
+    accumulator = iterations + (&iterations)[1];
     iterations--;
   }
     
